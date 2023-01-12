@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <!-- bootstrap css cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="./image/school.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header start here -->
+    <header>
+      <!-- nav start here -->
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">
+          <img src="./image/school.png" alt="school" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#btn"
+        >
+          <span><i class="navbar-icon fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="btn">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#features">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#feedback">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- nav end here -->
+
+      <!-- banner section start here -->
+      <section id="banner-section">
+        <div
+          class="banner-container d-flex justify-content-center align-items-center"
+        >
+          <div class="banner-contents">
+            <h1 class="fw-bolder text-white">Learn Something New !!!</h1>
+          </div>
+        </div>
+      </section>
+      <!-- banner section end here -->
+    </header>
+    <!-- header end here -->
+
+    <!-- main start here -->
+    <main>
+      <!-- features start here -->
+      <section id="features" class="text-center">
+        <div class="row">
+          <div class="col-lg-4 d-block d-lg-flex">
+            <div class="features-col">
+              <i
+                class="icon-style fa-solid fa-hand-holding-dollar fa-3x rounded-circle"
+              ></i>
+              <h5 class="fw-bolder">Free to Use</h5>
+              <p class="small text-muted">
+                Voluptua dolores sadipscing no dolores kasd invidunt tempor
+                dolores. Ipsum accusam diam tempor sed justo, et sadipscing et
+                tempor lorem,.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-block d-lg-flex">
+            <div class="features-col">
+              <i
+                class="icon-style fa-sharp fa-solid fa-fire-flame-curved fa-3x rounded-circle"
+              ></i>
+              <h5 class="fw-bolder">Easy to Learn</h5>
+              <p class="small text-muted">
+                Früh ein denen lied die das fühlt ach lispelnd noch. Und dem
+                schauer zauberhauch wirklichkeiten unbestimmten ein, mit steigt
+                wird.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-block d-lg-flex">
+            <div class="features-col">
+              <i
+                class="icon-style fa-solid fa-comment-dots fa-3x rounded-circle"
+              ></i>
+              <h5 class="fw-bolder">Fast Response</h5>
+              <p class="small text-muted">
+                Las tránsito es quedo muerte sepultura. De en de borrachos los
+                los quedo la pupila. Pasan de abierta el queman,.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- features end here -->
+
+      <!-- about me start here -->
+      <section id="about-me">
+        <div class="section-title">
+          <h3 class="text-center">About Me</h3>
+          <hr class="hr-style d-block mx-auto" />
+        </div>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="basic-desc text-center text-lg-start">
+              <i class="icon-style fa-regular fa-user fa-3x rounded-circle"></i>
+              <h3 class="fw-bolder">Personal Info</h3>
+              <p><span>Name:</span> Abrar Hossian</p>
+              <p><span>Address:</span> Gournadi, Dhaka, Bangladesh</p>
+              <p>
+                <span>Email:</span>
+                <a href="mailto:md.abrar.hossian.abir@gmail.com"
+                  >md.abrar.hossian.abir@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7"></div>
+          <div class="col-lg-5">
+            <div class="education-desc text-center text-lg-start">
+              <i
+                class="icon-style fa-solid fa-graduation-cap fa-3x rounded-circle"
+              ></i>
+              <h3 class="fw-bolder">Education</h3>
+              <p>
+                <span>Anwara Pre-Cadet School</span> <br />
+                2010-2015 <br />
+                Torky Bandar,Gournadi,Barishal
+              </p>
+              <br />
+              <p>
+                <span>Lakheraj Kasba Government Primary School</span> <br />
+                2016 <br />
+                Lakeraj Kasba,Gournadi,Barishal
+              </p>
+              <br />
+              <p>
+                <span>Shaheen Cadet Coaching</span> <br />
+                2017-2018 <br />
+                Bogra Rd,Barishal
+              </p>
+              <br />
+              <p>
+                <span>Palordi Model School and College</span> <br />
+                2019-2022 <br />
+                Auhukathi,Gournadi,Barishal
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="skills-desc text-center text-lg-start">
+              <i
+                class="icon-style fa-solid fa-briefcase fa-3x rounded-circle"
+              ></i>
+              <h3 class="fw-bolder">Skills</h3>
+              <table class="d-inline mx-auto">
+                <tr>
+                  <td class="fw-bold">HTML</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">CSS</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">BOOTSTRAP</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">SASS</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-bold">JS</td>
+                  <td>
+                    <span class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="button-desc text-center">
+          <a href="" download="">
+            <button class="btn btn-primary btn-lg mt-5">
+              Download
+              <i class="fa-regular fa-circle-down"></i>
+            </button>
+          </a>
+        </div>
+      </section>
+      <!-- about me end here -->
+
+      <!-- city card start here -->
+      <section id="city-card">
+        <div class="section-title">
+          <h3 class="text-center fw-bolder">City</h3>
+          <hr class="hr-style d-block mx-auto" style="border-color: black" />
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card shadow mb-5 m-lg-0 bg-transparent">
+              <div class="inner">
+                <img
+                  class="card-img-top"
+                  src="./image/img-1.jpg"
+                  alt="europe"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="fw-bold text-center text-white">Europe</h3>
+                <hr
+                  class="hr-style d-block mx-auto"
+                  style="border-color: white"
+                />
+                <p class="small">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Assumenda aspernatur adipisci, quae, quidem delectus ipsam
+                  fugit natus eos dignissimos minus explicabo consequatur saepe
+                  enim obcaecati doloremque molestiae magnam voluptas a!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card shadow mb-5 m-lg-0 bg-transparent">
+              <div class="inner">
+                <img
+                  class="card-img-top"
+                  src="./image/img-2.jpg"
+                  alt="london"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="fw-bold text-center text-white">London</h3>
+                <hr
+                  class="hr-style d-block mx-auto"
+                  style="border-color: white"
+                />
+                <p class="small">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Assumenda aspernatur adipisci, quae, quidem delectus ipsam
+                  fugit natus eos dignissimos minus explicabo consequatur saepe
+                  enim obcaecati doloremque molestiae magnam voluptas a!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card shadow mb-5 m-lg-0 bg-transparent">
+              <div class="inner">
+                <img
+                  class="card-img-top"
+                  src="./image/img-3.jpg"
+                  alt="new-york"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="fw-bold text-center text-white">New York</h3>
+                <hr
+                  class="hr-style d-block mx-auto"
+                  style="border-color: white"
+                />
+                <p class="small">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Assumenda aspernatur adipisci, quae, quidem delectus ipsam
+                  fugit natus eos dignissimos minus explicabo consequatur saepe
+                  enim obcaecati doloremque molestiae magnam voluptas a!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card shadow mb-5 m-lg-0 bg-transparent">
+              <div class="inner">
+                <img
+                  class="card-img-top"
+                  src="./image/img-4.jpg"
+                  alt="united-arab-emirates"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="fw-bold text-center text-white">Dubai</h3>
+                <hr
+                  class="hr-style d-block mx-auto"
+                  style="border-color: white"
+                />
+                <p class="small">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Assumenda aspernatur adipisci, quae, quidem delectus ipsam
+                  fugit natus eos dignissimos minus explicabo consequatur saepe
+                  enim obcaecati doloremque molestiae magnam voluptas a!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- city card end here -->
+
+      <!-- feedback start here -->
+      <section id="feedback">
+        <div class="section-title">
+          <h3 class="text-center fw-bolde text-white">Feedback</h3>
+          <hr class="hr-style d-block mx-auto" style="border-color: white" />
+        </div>
+        <div class="row">
+          <div
+            id="carouselIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="2000"
+            data-bs-pause="hover"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="small">
+                  1. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Consequuntur voluptatem in repellat vitae id officia eveniet
+                  unde, praesentium velit asperiores!
+                </p>
+                <img
+                  class="rounded-circle feedback-img"
+                  src="./image/abir-2.jpg"
+                  alt="abir-photo"
+                />
+                <h6 class="fw-bolder font-monospace">Abrar Hossian</h6>
+              </div>
+              <div class="carousel-item">
+                <p class="small">
+                  2. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Consequuntur voluptatem in repellat vitae id officia eveniet
+                  unde, praesentium velit asperiores!
+                </p>
+                <img
+                  class="rounded-circle feedback-img"
+                  src="./image/abir-2.jpg"
+                  alt="abir-photo"
+                />
+                <h6 class="fw-bolder font-monospace">Abrar Hossian</h6>
+              </div>
+              <div class="carousel-item">
+                <p class="small">
+                  3. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Consequuntur voluptatem in repellat vitae id officia eveniet
+                  unde, praesentium velit asperiores!
+                </p>
+                <img
+                  class="rounded-circle feedback-img"
+                  src="./image/abir-2.jpg"
+                  alt="abir-photo"
+                />
+                <h6 class="fw-bolder font-monospace">Abrar Hossian</h6>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- feedback end here -->
+
+      <!-- contact start here -->
+      <section id="contact">
+        <div class="section-title">
+          <h3 class="text-center text-white fw-bolder">Contact</h3>
+          <hr
+            class="hr-style d-block mx-auto"
+            style="border-color: whitesmoke"
+          />
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form
+              action="mailto:abrar.hossian@yahoo.com"
+              method="post"
+              enctype="text/plain"
+              class="was-validated"
+            >
+              <div class="form-group mb-2">
+                <label
+                  for="fullname"
+                  class="form-label text-white-50 fw-semibold"
+                  >Full Name:</label
+                >
+                <input
+                  type="text"
+                  name="Name:"
+                  id="fullname"
+                  placeholder="Please Enter Your Name"
+                  class="form-control"
+                  required
+                />
+                <div class="valid-feedback text-success fw-semibold">
+                  Valid full name
+                </div>
+                <div class="invalid-feedback text-danger fw-semibold">
+                  Enter full name before submitting the form.
+                </div>
+              </div>
+
+              <div class="form-group mb-2">
+                <label for="email" class="form-label text-white-50 fw-semibold"
+                  >Email:</label
+                >
+                <input
+                  type="email"
+                  name="Email:"
+                  id="email"
+                  placeholder="Please Enter Your Email"
+                  class="form-control"
+                  required
+                />
+                <div class="valid-feedback text-success fw-semibold">
+                  Valid email
+                </div>
+                <div class="invalid-feedback text-danger fw-semibold">
+                  Enter email before submitting the form.
+                </div>
+              </div>
+
+              <div class="form-group mb-2">
+                <label
+                  for="message"
+                  class="form-label text-white-50 fw-semibold"
+                  >Message:</label
+                >
+                <textarea
+                  name="Message:"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                  style="resize: none"
+                ></textarea>
+              </div>
+              <div class="form-group text-center mt-3">
+                <button
+                  type="submit"
+                  class="btn btn-primary mx-3 text-uppercase text-white fst-italic fw-semibold"
+                >
+                  submit
+                </button>
+                <button
+                  type="reset"
+                  class="btn btn-primary text-uppercase text-white fst-italic fw-semibold"
+                >
+                  reset
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- contact end here -->
+    </main>
+    <!-- main end here -->
+
+    <!-- footer start here -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-6 text-center text-lg-start mb-3 m-lg-0">
+          <p class="text-white fw-semibold mb-0 mt-1">
+            &copy; Copyright Abrar Hossian
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+          <a href="#">Home</a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-facebook fa-1x"
+              style="color: #3b5998"
+              onclick="window.open('https://www.facebook.com')"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-linkedin"
+              onclick="window.open('https://www.linkedin.com/')"
+              style="color: #0072b1"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-github"
+              onclick="window.open('https://github.com/')"
+              style="color: #171515"
+            ></i
+          ></a>
+          <a href="#">
+            <i
+              class="fa-brands fa-youtube"
+              onclick="window.open('https://youtube.com/')"
+              style="color: #ff0000"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end here -->
+
+    <!-- bootstrap js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

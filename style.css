@@ -1,0 +1,241 @@
+/* reset code & common code starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-title h3 {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.hr-style {
+  border: 5px dotted black;
+  border-bottom: none;
+  width: 45px;
+}
+/* reset code & common code ends here */
+
+/* header design start here  */
+header {
+  background-image: url("./image/class.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* header design end here */
+
+/* nav design start here */
+.navbar {
+  padding: 1% 10%;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+  color: white;
+  font-size: 1.9rem;
+}
+
+.nav-link {
+  color: white;
+  margin: 10px;
+  transition: 0.4s;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link:hover {
+  background-color: #29809b;
+  color: white;
+  transform: scale(1.1);
+}
+/* nav design end here */
+
+/* banner design start here */
+.banner-container {
+  height: 100vh;
+}
+
+.banner-contents h1 {
+  background-color: rgba(0, 101, 189, 0.9);
+  font-family: "Handlee", cursive;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 3.5rem;
+}
+/* banner design end here */
+
+/* features design start here */
+#features {
+  padding: 4% 10%;
+  background-color: #e8ded2;
+}
+
+.features-col {
+  border: 1px solid #ff02c0;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 15px 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 5px black;
+}
+
+.icon-style {
+  color: white;
+  background-color: #bb0aac;
+  padding: 15px;
+  margin: 15px 0;
+}
+/* features design end here */
+
+/* about me design start here */
+#about-me {
+  background-color: #e8ded2;
+  padding: 4% 10%;
+}
+
+#about-me p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+#about-me span {
+  font-weight: bolder !important;
+}
+
+#about-me a {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+}
+
+.star i {
+  margin: 0 7px;
+}
+/* about me design end here */
+
+/* city card design start here */
+#city-card {
+  background-color: #5eaaa8;
+  padding: 4% 10%;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+  cursor: pointer;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+.card-body {
+  background-color: #3e6d9c;
+}
+
+.card-body p {
+  text-align: justify;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/* city card design end here */
+
+/* feedback design start here */
+#feedback {
+  background-color: #0d0422;
+  padding: 5%;
+}
+
+.carousel-item p,
+h6 {
+  color: white;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.feedback-img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 8px;
+}
+/* feedback design end here */
+
+/* contact design start here */
+#contact {
+  padding: 4% 10%;
+  background-color: #052d2f;
+}
+
+.form-group label {
+  margin-bottom: 0;
+}
+
+.valid-feedback {
+  text-transform: capitalize;
+}
+
+.invalid-feedback {
+  text-transform: capitalize;
+}
+/* contact design end here */
+
+/* footer design start here */
+footer {
+  padding: 1% 10%;
+  background-color: black;
+}
+
+footer p {
+  font-family: "Handlee", cursive;
+  font-size: 1.3rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.3rem;
+  font-family: "Handlee", cursive;
+}
+/* footer design end here */
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (max-width: 762px) {
+  .nav-link {
+    background-color: rgb(0, 0, 0, 0.7);
+  }
+
+  .banner-contents h1 {
+    font-size: 2.5rem;
+  }
+}
